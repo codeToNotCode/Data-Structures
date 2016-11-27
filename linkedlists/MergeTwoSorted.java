@@ -74,7 +74,7 @@ public class MergeTwoSorted {
 		  if (list1.next == null) list1.next = list2;
 
 		  //Return the updated head of the updated list. 
-		  //We update list only once in the begining and then work with a temporary node to traverse the list
+		  //We update head only once in the begining and then work with a temporary node to traverse the list
 		  //Head remains untouched after initial intialization
 		  return head;
 	}
