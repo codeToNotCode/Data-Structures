@@ -1,30 +1,33 @@
-//Insertion adn Deletion
-
+/*
+ *Insertion and Deletion
+ */
 package linkedlists;
 
-public class LinkedList {
+public class LinkedList 
+{
 
 	//Head of the list
 	Node head;
 	
 	//Linked list Node
 	//This class is made static so that the main method can access it
-	static class Node{
-		
+	static class Node
+	{
 		int data;
 		Node next;
 		
 		//Constructor to create a new Node
 		//next is by default initialized to null
-		Node(int d){
+		Node(int d)
+		{
 			data = d;
 			next = null;
 		}
 	}
 	
 	//Insertion at the HEad of list
-	public void push(int new_data){
-		
+	public void push(int new_data)
+	{
 		//1. Allocate memory for new Node
 		//2. Store new_data into the data field of the new Node
 		Node new_node = new Node(new_data);
@@ -37,10 +40,12 @@ public class LinkedList {
 	}
 	
 	//Insert after a given node in the list
-	public void insertAfter(Node prev_node, int new_data){
+	public void insertAfter(Node prev_node, int new_data)
+	{
 		
 		//1. Check if the given previous node is null
-		if( prev_node == null){
+		if( prev_node == null)
+		{
 			System.out.println("The previous node cannot be null");
 			return;
 		}
@@ -56,7 +61,8 @@ public class LinkedList {
 	}
 	
 	//Insert at the end of the list
-	public void append(int new_data){
+	public void append(int new_data)
+	{
 		
 		 //1. Allocate memory for the new node
 		 //2. Store new_data in the data field of new node
@@ -86,7 +92,8 @@ public class LinkedList {
 	}
 	
 	//Given a key, delete the first occurence of key in the list
-	void deleteNode(int key){
+	void deleteNode(int key)
+	{
 		
 		//Store head node 
 		Node temp = head;
@@ -117,12 +124,12 @@ public class LinkedList {
 		//If key is found from the while condition
 		//Unlink the found node from the list
 		prev.next = temp.next;
+		temp = null;
 	}
 	
 	//Delete a list node at a give position
-	void deleteNodeAtPosition(int position){
-		
-		
+	void deleteNodeAtPosition(int position)
+	{
 		//If linked list is empty
 		if( head == null)
 			return;
@@ -155,20 +162,22 @@ public class LinkedList {
 					
 		//Delete the node at position at which the condition in the while node turns false
 		prev.next = temp.next;
+		temp=null;
 	}
 	
 	//Display Linked List
-	static void printList(Node head){
-			
+	static void printList(Node head)
+	{
 		 Node traverse = head;
 			
 		 if(traverse == null)
 		    System.out.println("Empty List");
-		else{    
-		    while( traverse!= null){
-			
-	    	System.out.print(traverse.data+" ");
-	    	traverse = traverse.next;
+		else
+		{    
+		    while( traverse!= null)
+		    {
+			System.out.print(traverse.data+" ");
+	    		traverse = traverse.next;
 		    }
 		}
 	}

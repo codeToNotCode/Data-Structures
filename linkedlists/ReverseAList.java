@@ -1,11 +1,5 @@
 package linkedlists;
 
-
-
-
-
-
-
 public class ReverseAList {
 	
 	 Node head;
