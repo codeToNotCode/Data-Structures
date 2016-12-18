@@ -28,7 +28,10 @@ public class DetectLoop {
 		head = new_node;
 	}
 	
-	//Detect a loop --- Using Visited Flags --- Changes the Linked List  Data structure as a new instance variable has to be added
+	/*
+	 * Detect a loop --- Using Visited Flags --- Changes the Linked List  Data structure
+	 *  as a new instance variable has to be added
+	 */
 	public void detectLoop(Node head)
 	{
 		 Node traverse = head;
