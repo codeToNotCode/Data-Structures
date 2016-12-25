@@ -95,8 +95,7 @@ public class GetMax
 		stack.push(2);
 		stack.push(44);
 		stack.push(21);
-		stack.pop();
-		stack.pop();
+		
 		System.out.println("Maximum element in the stack is :"+stack.getMax());
 	}
 }
