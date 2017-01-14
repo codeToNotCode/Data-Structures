@@ -1,5 +1,7 @@
 /*
  * To do a In-order traversal of a binary tree using recursion
+ * In-order Traversal prints the elements of a BST in a sorted order
+ * Time Complexity - O(n)
  */
 
 package trees;
