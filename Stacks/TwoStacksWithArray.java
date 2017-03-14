@@ -1,6 +1,6 @@
-/*
+ /*
  * Implement 2 stacks with an array
- * Both the stacks start from the begining of the array
+ * Stack 1 will start from the begining of the array and stack2 will start from the middle
  * This is not an efficient implementation because of not good utilisation of complete array space
  * Stack1 will say Its full even if there is some space available in the array (Stack2 Partition)
  */

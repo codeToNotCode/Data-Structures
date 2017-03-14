@@ -70,7 +70,7 @@ public class PrintMatrixInSpiral
 		PrintMatrixInSpiral rm = new PrintMatrixInSpiral();
 		
 		int rows = 5;
-		int columns =5;
+		int columns =3;
 		int[][] matrix = new int[rows][columns];
 		int count = 0;
 		

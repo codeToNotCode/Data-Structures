@@ -47,8 +47,9 @@ public class MergeTwoSorted {
 			  //Intialize head to list2 
 			    head = list2;
 			   
-			  //Copies first node of list1 to list2, and since from the first node you have links to successive nodes(and the complete list)
-			  //Hence, You are actually reinitializing list2 as list1   
+			    //Copies first node of list1 to list2, and since from the first node you have links to successive nodes(and the complete list)
+			    //Hence, You are actually reinitializing list2 as list1   
+			    //Basically swapping list1 and list2
 			    list2 = list1;
 			    
 			  //list1 now contains head which points to list2  

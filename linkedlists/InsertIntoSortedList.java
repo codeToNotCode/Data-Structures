@@ -64,11 +64,12 @@ public class InsertIntoSortedList
 		new_node.next = traverse.next;
 		traverse.next = new_node;
 		
+		
+		
 		/*
-		 * ----------Without creation of a previous pointer
+		 * ----------With creation of a previous pointer
 		 */
-		
-		
+			
 //		while( traverse!=null )
 //		{
 //			if( traverse.data > new_node.data)

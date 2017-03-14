@@ -1,5 +1,5 @@
 /*
- * Implement getMin() function in O(1) time complexity
+ * Implement getMax() function in O(1) time complexity
  * This implementation alters the stack data structure 
  */
 
@@ -89,7 +89,7 @@ public class GetMax
 	public static void main(String[] args) 
 	{
 		GetMax stack = new GetMax();
-		
+		  
 		stack.push(1);
 		stack.push(4);
 		stack.push(2);

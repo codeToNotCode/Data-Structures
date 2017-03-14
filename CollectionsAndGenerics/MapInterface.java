@@ -22,6 +22,9 @@
  * 
  * Map.Entry - Entry is an interface inside the interface Map. So this is an example of interface nesting.
  * An Entry is a key value pair. Two functions - getKey() and getValue()
+ * 
+ * HAshMap stores only unique keys. No duplicate keys are allowed in Hashmap
+ * HashSet stores only unique elements . No duplicate elements are allowed in a HashSet
  */
 package CollectionsAndGenerics;
 
