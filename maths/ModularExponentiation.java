@@ -31,6 +31,35 @@ public class ModularExponentiation
 	
 	public static void main(String[] args)
 	{
-		System.out.println(modExp(5,3,13));
+		System.out.println(modExp(2,3,3));
 	}
 }
+
+
+//
+//public class Solution {
+//	public int pow(int x, int n, int d) {
+//	    
+//	    long a = x;
+//	    long res = 1L;
+//	    
+//	    while (n > 0) {
+//	        
+//	        if (n % 2 == 1) {
+//	            res *= a;
+//	            res %= d;
+//	        }
+//	        
+//	        a *= a;
+//	        a %= d;
+//	        n = n >> 1;
+//	        
+//	    }
+
+//	    
+//	    res = (res + d) % d;
+//	    
+//	    return (int) res;
+//	    
+//	}
+//}

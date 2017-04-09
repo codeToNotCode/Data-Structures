@@ -1,6 +1,6 @@
 /*
  * Given an array of integers in sorted order, find two integers in the array that add up to a given sum
- * Give a O(n) inplace ddsolution without using extra space
+ * Give a O(n) inplace solution without using extra space
  */
 
 package ArraysAndStrings;

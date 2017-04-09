@@ -23,7 +23,7 @@ public class RemoveDups
 	            a.set(index++, a.get(i).intValue());
 	            count = 0;
 	        }
-	    }
+	    } 
 	    System.out.println(a);
 	    return index;
 	}

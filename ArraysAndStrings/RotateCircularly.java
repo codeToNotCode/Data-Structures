@@ -16,6 +16,9 @@ public class RotateCircularly
 		int numRot = n %  a.size();
 		ArrayList<Integer> befRot = new ArrayList<>();
 		ArrayList<Integer> result = new ArrayList<>();
+		
+		
+		
 		for(int i = 0 ; i < numRot; i++)
 			befRot.add(a.get(i));
 		for(int j = 0 ; j < a.size() - numRot; j++)
@@ -29,9 +32,9 @@ public class RotateCircularly
 	{
 	
 		ArrayList<Integer> ab = new ArrayList<Integer>();
-		ab.add(1);ab.add(2);ab.add(3);ab.add(4);ab.add(5);ab.add(6);
+		ab.add(1);ab.add(2);
 
 		System.out.println(ab.toString());
-		System.out.println(rotate(ab,10).toString());
+		System.out.println(rotate(ab,1).toString());
 	}
 }
